@@ -4,4 +4,5 @@ steps:
     args:
       - -c
       - |
+        gcloud app create --project=inventory-management-425209 --region=us-central || echo "App Engine already initialized"
         gcloud app deploy app.yaml --quiet
