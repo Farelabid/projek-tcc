@@ -4,5 +4,5 @@ steps:
     args:
       - -c
       - |
-        gcloud auth activate-service-account --key-file=C:\Users\Acer\Downloads\inventory-management-425209-dd8fd63fa843.json
+        gcloud auth activate-service-account --key-file=inventory-management-425209-dd8fd63fa843.json
         gcloud app deploy app.yaml --quiet
