@@ -4,6 +4,4 @@ steps:
     args:
       - -c
       - |
-        gcloud app create --project=inventory-management-425209 --region=us-central
         gcloud app deploy app.yaml --quiet
-
